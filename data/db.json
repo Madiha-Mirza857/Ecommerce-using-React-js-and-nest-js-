@@ -1,0 +1,413 @@
+{
+  "users": [
+    {
+      "id": "u-admin-1",
+      "email": "admin@atelier.com",
+      "password": "admin123",
+      "name": "Atelier Director (Admin)",
+      "role": "admin"
+    },
+    {
+      "id": "u-customer-1",
+      "email": "customer@atelier.com",
+      "password": "user123",
+      "name": "Clara Vance",
+      "role": "customer"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Outerwear",
+      "slug": "outerwear",
+      "description": "Architectural coats, trenchcoats, and jackets"
+    },
+    {
+      "id": "cat-2",
+      "name": "Knitwear",
+      "slug": "knitwear",
+      "description": "Heavyweight alpaca, cashmere, and merino knits"
+    },
+    {
+      "id": "cat-3",
+      "name": "Tailored Suits",
+      "slug": "tailored-suits",
+      "description": "Structured virgin wool pants and silk garments"
+    },
+    {
+      "id": "cat-4",
+      "name": "Footwear",
+      "slug": "footwear",
+      "description": "Goodyear welt boots and Italian leather footwear"
+    },
+    {
+      "id": "cat-5",
+      "name": "Leather Goods",
+      "slug": "leather-goods",
+      "description": "Handcrafted nappa leather bags and small accessories"
+    },
+    {
+      "id": "cat-6",
+      "name": "Accessories",
+      "slug": "accessories",
+      "description": "Japanese acetate eyewear and fine jewelry"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1785329287613",
+      "name": "ladies dress",
+      "subtitle": "",
+      "price": 200,
+      "category": "Outerwear",
+      "tags": [],
+      "images": [
+        "/uploads/product-1785329283686-892929919.jpg"
+      ],
+      "colors": [
+        {
+          "name": "Onyx Charcoal",
+          "hex": "#1a1a1a"
+        },
+        {
+          "name": "Sandstone",
+          "hex": "#d2c8bc"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "",
+      "details": [],
+      "composition": "100% Fine Fibers",
+      "careInstructions": "Dry clean only",
+      "rating": 5,
+      "reviewsCount": 1,
+      "inStock": true,
+      "isNewArrival": true,
+      "isBestseller": false,
+      "sustainabilityBadge": "Atelier Certified",
+      "createdAt": "2026-07-29T12:48:07.614Z"
+    },
+    {
+      "id": "prod-1",
+      "name": "Architectural Cashmere Overcoat",
+      "subtitle": "Structured double-breasted silhouette in grade-A Mongolian cashmere",
+      "price": 1850,
+      "originalPrice": 2100,
+      "category": "Outerwear",
+      "tags": [
+        "Cashmere",
+        "Tailored",
+        "Winter Capsule",
+        "Bestseller"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Onyx Charcoal",
+          "hex": "#262626"
+        },
+        {
+          "name": "Emerald Moss",
+          "hex": "#006c49"
+        },
+        {
+          "name": "Oatmeal Beige",
+          "hex": "#D2C8BC"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Cut with precision architectural lines, this heavyweight overcoat balances structure and unyielding comfort. Spun from 100% Mongolian Grade-A cashmere with horn buttons and silk cupro lining.",
+      "details": [
+        "Peak lapels with hand-stitched collar stand",
+        "Welt breast pocket and deep interior welt pockets",
+        "Full hand-finished silk cupro lining",
+        "Made in Florence, Italy"
+      ],
+      "composition": "100% Grade-A Mongolian Cashmere | Lining: 100% Cupro",
+      "careInstructions": "Specialist dry clean only. Store on padded cedar coat hanger.",
+      "rating": 4.9,
+      "reviewsCount": 38,
+      "inStock": true,
+      "isNewArrival": true,
+      "isBestseller": true,
+      "sustainabilityBadge": "100% Traceable Cashmere",
+      "createdAt": "2026-07-29T12:09:52.699Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "Monolithic Wool Pleated Trousers",
+      "subtitle": "High-waisted wide leg tailoring with hand-pressed front creases",
+      "price": 680,
+      "category": "Tailored Suits",
+      "tags": [
+        "Wool",
+        "Minimalist",
+        "Workwear",
+        "New"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Pitch Black",
+          "hex": "#111827"
+        },
+        {
+          "name": "Slate Grey",
+          "hex": "#4B5563"
+        },
+        {
+          "name": "Earthy Taupe",
+          "hex": "#8B7D6B"
+        }
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "description": "An anchor piece for the contemporary wardrobe. Engineered from crisp virgin wool weave with twin front pleats and an extended waist tab for clean lines without a belt.",
+      "details": [
+        "Twin forward pleats with crisp press fold",
+        "Side waist adjusters with brushed nickel buckles",
+        "Unfinished hem for bespoke length adjustment"
+      ],
+      "composition": "100% Super 130s Virgin Wool",
+      "careInstructions": "Dry clean only. Steam gently between wears.",
+      "rating": 4.8,
+      "reviewsCount": 24,
+      "inStock": true,
+      "isNewArrival": true,
+      "sustainabilityBadge": "ZQRX Certified Wool",
+      "createdAt": "2026-07-29T12:09:52.700Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "Linear Silk Habotai Dress",
+      "subtitle": "Asymmetric bias-cut evening dress with subtle emerald sheen",
+      "price": 1250,
+      "originalPrice": 1400,
+      "category": "Tailored Suits",
+      "tags": [
+        "Silk",
+        "Eveningwear",
+        "Editorial"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Signature Emerald",
+          "hex": "#8b4513"
+        },
+        {
+          "name": "Midnight Navy",
+          "hex": "#0F172A"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Draped effortlessly along the body, the Linear Silk Dress showcases fluid elegance. Hand-cut on the bias from heavyweight silk habotai.",
+      "details": [
+        "Asymmetric shoulder drape with concealed side zip",
+        "Self-lined bodice for maximum opacity",
+        "Floor-sweeping column silhouette"
+      ],
+      "composition": "100% Mulberry Silk",
+      "careInstructions": "Dry clean only.",
+      "rating": 5,
+      "reviewsCount": 19,
+      "inStock": true,
+      "isBestseller": true,
+      "sustainabilityBadge": "Zero Chemical Dyes",
+      "createdAt": "2026-07-29T12:09:52.700Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "Chunky Ribbed Alpaca Knit",
+      "subtitle": "Heavyweight mock-neck sweater spun from ethically sheared Peruvian alpaca",
+      "price": 540,
+      "category": "Knitwear",
+      "tags": [
+        "Alpaca",
+        "Knitwear",
+        "Cozy",
+        "New"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Ivory Cream",
+          "hex": "#F5F5F0"
+        },
+        {
+          "name": "Charcoal Dust",
+          "hex": "#374151"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Immensely plush and insulating without weight. Knitted in a 3-gauge fisherman rib from un-dyed baby alpaca fibers.",
+      "details": [
+        "Structured mock neckline with reinforced ribbed cuffs",
+        "Dropped shoulder seam for relaxed layering"
+      ],
+      "composition": "85% Baby Alpaca, 15% Organic Merino Wool",
+      "careInstructions": "Hand wash cold.",
+      "rating": 4.7,
+      "reviewsCount": 31,
+      "inStock": true,
+      "isNewArrival": true,
+      "sustainabilityBadge": "Fair Trade Certified",
+      "createdAt": "2026-07-29T12:09:52.700Z"
+    },
+    {
+      "id": "prod-5",
+      "name": "Minimalist Calfskin Chelsea Boot",
+      "subtitle": "Sculpted Goodyear-welted ankle boot with subtle brown heel pull",
+      "price": 790,
+      "category": "Footwear",
+      "tags": [
+        "Footwear",
+        "Leather",
+        "Essential"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Polished Black",
+          "hex": "#0A0A0A"
+        },
+        {
+          "name": "Cognac Brown",
+          "hex": "#78350F"
+        }
+      ],
+      "sizes": [
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "description": "Handcrafted in Marche, Italy using vegetable-tanned French calfskin.",
+      "details": [
+        "Goodyear welt construction for lifetime resoling",
+        "Tone-on-tone elastic side gussets"
+      ],
+      "composition": "100% Full-Grain Calfskin",
+      "careInstructions": "Clean with damp cloth.",
+      "rating": 4.9,
+      "reviewsCount": 42,
+      "inStock": true,
+      "isBestseller": true,
+      "sustainabilityBadge": "Vegetable Tanned Leather",
+      "createdAt": "2026-07-29T12:09:52.700Z"
+    },
+    {
+      "id": "prod-6",
+      "name": "Linear Box Crossbody Bag",
+      "subtitle": "Structured box silhouette in smooth nappa leather with gold hardware",
+      "price": 920,
+      "category": "Leather Goods",
+      "tags": [
+        "Bag",
+        "Leather",
+        "Accessories",
+        "Iconic"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "colors": [
+        {
+          "name": "Jet Black",
+          "hex": "#18181B"
+        },
+        {
+          "name": "Warm Saddle",
+          "hex": "#B45309"
+        }
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "description": "An architectural staple. Features a magnetic clasp disguised as a clean metal bar.",
+      "details": [
+        "Adjustable leather shoulder strap",
+        "Custom gold-plated hardware"
+      ],
+      "composition": "Exterior: 100% Italian Nappa | Lining: Suede",
+      "careInstructions": "Store in provided dust bag.",
+      "rating": 4.9,
+      "reviewsCount": 56,
+      "inStock": true,
+      "isBestseller": true,
+      "sustainabilityBadge": "LWG Gold Certified Tannery",
+      "createdAt": "2026-07-29T12:09:52.700Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-2026-101",
+      "customerName": "Clara Vance",
+      "customerEmail": "customer@atelier.com",
+      "address": "142 Regent Street, Apt 4B",
+      "city": "London",
+      "country": "United Kingdom",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Architectural Cashmere Overcoat",
+          "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1000&auto=format&fit=crop",
+          "price": 1850,
+          "quantity": 1,
+          "color": "Onyx Charcoal",
+          "size": "M"
+        }
+      ],
+      "subtotal": 1850,
+      "shippingFee": 0,
+      "discountAmount": 0,
+      "totalAmount": 1850,
+      "paymentMethod": "card",
+      "giftWrap": true,
+      "status": "Shipped",
+      "createdAt": "2026-07-27T12:09:52.700Z",
+      "updatedAt": "2026-07-29T12:49:33.975Z"
+    }
+  ]
+}

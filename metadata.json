@@ -1,0 +1,6 @@
+{
+  "name": "Luxe & Linear",
+  "description": "Premium editorial fashion and luxury lifestyle catalog with interactive lookbook, AI personal stylist, curated collections, cart, and shopping views.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
